@@ -76,3 +76,14 @@ form p a {
     color: inherit
 }
 
+form .input-checkbox {
+    margin: 0px !important;
+    position: relative;
+}
+
+form .input-checkbox + label {
+    position: absolute;
+    margin: 9px 20px;
+    color: gray;
+}
+
