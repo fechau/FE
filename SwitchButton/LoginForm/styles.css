@@ -44,15 +44,16 @@ form label {
     font-weight: 400;
     font-size: 14px;
     pointer-events: none;
-    color:gray;
+    color: gray;
     transition: all 0.3s;
 }
 
-input:focus + label, input:valid + label {
+input:focus+label,
+input:valid+label {
     top: -10px;
     left: -3px;
-    font-size:13px;
-    color:dodgerblue
+    font-size: 13px;
+    color: dodgerblue
 }
 
 form button {
@@ -81,9 +82,8 @@ form .input-checkbox {
     position: relative;
 }
 
-form .input-checkbox + label {
+form .input-checkbox+label {
     position: absolute;
     margin: 9px 20px;
     color: gray;
 }
-
